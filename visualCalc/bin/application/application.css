@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.btn-number{
+	-fx-text-fill: red;
+}
+
+.display{
+	-fx-border-color: grey;
+	-fx-border-radius: 8px;
+	-fx-background-radius: 8px;
+}
+
+.background{
+	-fx-background-color: linear-gradient(to bottom, #00C9FF, #92FE9D); 
+}
+
+Button{
+	-fx-background-color: rgba(37, 109, 23,.7);
+	-fx-text-fill: rgba(255,255,255,0.8);
+}
+
+Button:hover{
+	-fx-background-color: rgba(241, 221, 56,.7);
+}
